@@ -1,0 +1,170 @@
+/** Formatações gerais **/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../img/bg.jpg) repeat-x;
+	font-family: "Trebuchet MS", "Arial", sans-serif;;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+/** Formatação Container **/
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 10px 0px 10px;
+	min-width: 1100px;
+}
+
+/** Formatação cabeçalho**/
+
+header {
+	margin-top: 20px;
+}
+
+/** Logo **/
+
+#logo {
+	padding-left: 10px;
+	float: left;
+	width: 354px;
+	height: 94px;
+}
+
+#logo h1 {
+	text-indent: -9999px;
+}
+
+/** Menu **/
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+	padding: 30px 20px 20px 20px;
+}
+
+nav ul li a {
+	color: #d67900;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+/** Banner **/
+
+#banner {
+	margin-top: 130px;
+	background-color: rgb(0, 0, 0);
+	padding: 10px;
+}
+
+#banner img {
+	background-color: rgb(0, 0, 0);
+	width: 100%;
+}
+
+/** Formatação Conteúdo **/
+
+#conteudo {
+	padding-left: 40px;
+}
+
+.coluna {
+	float: left;
+	margin: 0 20px;
+	width: 29%;
+}
+
+/** Formatação itens **/
+
+.item {
+	border: 1px solid #cecece;
+	margin-top: 20px;
+	height: 480px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.item:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.item h4 {
+	color: #d67900;
+	margin: 20px 0;
+	font-size: 1.9em;
+}
+
+.item h5 {
+	font-size: 4em;
+	padding-top: 10px;
+}
+
+.item img {
+	height: 230px;
+}
+
+.comprar h3 {
+	background-color: #d67900;
+	color: #ffffff;
+	line-height: 50px;
+	margin: 10px 10px 0 10px;
+	border-radius: 10px;
+}
+
+/** Formatação Rodapé **/
+
+footer {
+	background-color: rgb(0, 0, 0);
+	margin-bottom: 0;
+}
+
+#conteudo-rodape {
+	margin: 0;
+	color: #d67900;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#rodape {
+	border: 1px solid #d67900;
+	margin: 20px 20px 15px 20px;
+	padding: 20px;
+}
+
+footer input {
+	margin-top: 10px;
+}
+
+#email {
+	padding: 10px;
+	width: 400px;
+	height: 25px;
+	font-size: 1em;
+}
+
+#cadastrar {
+	background-color: #d67900;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 1em;
+}
